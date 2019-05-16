@@ -3,10 +3,10 @@ package com.student.model;
 public class StudentModel {
 	public StudentModel(int id, String name, int sex, int age) {
 		super();
-		this.id = id;
-		this.name = name;
-		this.sex = sex;
-		this.age = age;
+		this.id = id;//ID
+		this.name = name;//姓名
+		this.sex = sex;//性别
+		this.age = age;//年龄
 	}
 	private int id;
 	private String name;
